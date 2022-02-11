@@ -21,7 +21,7 @@ jobs:
           host: ${{ env.hostname }}
           port: 22
           username: emarciunas
-          key: "${{ secrets.EMARCIUNAS_SECRET }}"
+          key: "${{ secrets.PRIVATEKEY2 }}"
           script_stop: true     # Stop script after first failure
           script: |
             hostname
